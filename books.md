@@ -3,7 +3,7 @@ layout: page
 title: Bücher
 permalink: /books/
 ---
-##Meine Bücher
+## Meine Bücher
 
 Ich lese auch offline viel, aber oft nicht kontinuierlich genug. Um mich selbst zu motivieren und ein bisschen Einblick in meine Auswahl zu geben, hier eine (nicht ganz vollständige) Liste.
 

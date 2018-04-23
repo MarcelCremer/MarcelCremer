@@ -4,4 +4,6 @@ title: Projekte
 permalink: /projects/
 ---
 
-Test
+## Platzhalter
+
+Hier stehen bald meine aktuellen und vergangenen Projekte.
