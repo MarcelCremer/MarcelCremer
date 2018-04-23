@@ -1,15 +1,22 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Impressum
+permalink: /imprint/
 ---
 
-Some information about you!
+## Impressum
+### Angaben gemäß $5 TMG:
+Marcel Cremer
+Dürener Str. 236
+50171 Kerpen
 
-### More Information
+### Kontakt:
+Telefon:	+49 178 / 7145492
+E-Mail:	marcel [at] smart-programmer.de
 
-A place to include any other types of information that you'd like to include about yourself.
+### Verantwortlich für den Inhalt nach $55 Abs. 2 RSTV:
+Marcel Cremer
+Dürener Str. 236
+50171 Kerpen
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Quelle: http://www.e-recht24.de
