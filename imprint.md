@@ -5,7 +5,7 @@ permalink: /imprint/
 ---
 
 ## Impressum
-### Angaben gemäß $5 TMG:
+### Angaben gemäß §5 TMG:
 Marcel Cremer
 Dürener Str. 236
 50171 Kerpen
