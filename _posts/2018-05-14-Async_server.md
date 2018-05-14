@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Async everything!
-categories: Programmierung, my2Cent
+categories: Programmierung my2Cent
 comments: true
 ---
-Am Wochenende habe ich ein Stück Servercode auf das aktuellste Release von [MassiveJS](https://github.com/dmfay/massive-js) umgestellt. Da die API ab Version 3+ komplett auf Promises aufgebaut ist und keine Option mehr bietet, sync-Befehle (die bis Massive V2 per  [deasync](https://github.com/vkurchatkin/deasync) synchronisiert wurden) auszuführen, musste ich dafür ein gutes Stück code umschreiben.
+Am Wochenende habe ich ein Stück Servercode auf das aktuellste Release von [MassiveJS](https://github.com/dmfay/massive-js) umgestellt. Da die API ab Version 3+ komplett auf Promises aufgebaut ist und keine Option mehr bietet, sync-Befehle (die bis Massive V2 per  [deasync](https://github.com/vkurchatkin/deasync) synchronisiert wurden) auszuführen, musste ich dafür ein gutes Stück code umschreiben.<!--more-->
 
 Mein Code beginnt nun nicht mehr "klassisch", indem ich eine Server-Klasse habe, die instanziiert und gestartet wird:
 
@@ -73,9 +73,11 @@ getPostAndUser = async (postId) =>
 }
 ```
 
-Okay, das ist schon ein bisschen schicker. Trotzdem ein Heidenaufwand, vor allem weil getPostAndUser wieder ein Promise zurück gibt, das dann per "then/catch" getriggert werden muss.
+Okay, das ist schon ein bisschen schicker. Trotzdem ein Heidenaufwand - vor allem weil getPostAndUser wieder ein Promise zurück gibt, das dann per "then/catch" getriggert werden muss.
 
-Viel schöner zu Programmieren wäre es doch, wenn man den ganzen Promise-Kram nicht bräuchte, sondern einfach ALLES von Natur aus asynchron wäre. Dann könnte man, ähnlich wie bei async/await, parallele Verarbeitung über mehrfachzuweisung in einer Zeile antriggern und ansonsten "synchron" programmieren, weil JS den Spaß eh im Hintergrund automatisch auflöst.
+Viel schöner zu Programmieren wäre es doch, wenn man den ganzen Promise-Kram nicht bräuchte, sondern einfach **ALLES** von Natur aus asynchron wäre!
+
+Dann könnte man, ähnlich wie bei async/await, parallele Verarbeitung über mehrfachzuweisung in einer Zeile antriggern und ansonsten "synchron" programmieren, weil JS den Spaß eh im Hintergrund automatisch auflöst.
 
 Meine Vorstellung wäre so etwas wie:
 
@@ -102,6 +104,7 @@ getPostAndUser = (postId) =>
 
 Zu diskutieren wäre dann eigentlich nur, wie Operationen alá Array.forEach() behandelt werden.
 In der Regel will man da den Funktionsaufruf wohl seriell machen, aber das könnte man ja durch Einführung eines Flags wie z.B. 
+
 ```typescript
 Array.forEach(value, index, Array, serial = true)) 
 ```
