@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Async everything!
-categories: Programmierung my2Cent
+categories: [Programmierung, my2Cent]
 comments: true
 ---
 Am Wochenende habe ich ein Stück Servercode auf das aktuellste Release von [MassiveJS](https://github.com/dmfay/massive-js) umgestellt. Da die API ab Version 3+ komplett auf Promises aufgebaut ist und keine Option mehr bietet, sync-Befehle (die bis Massive V2 per  [deasync](https://github.com/vkurchatkin/deasync) synchronisiert wurden) auszuführen, musste ich dafür ein gutes Stück code umschreiben.<!--more-->
