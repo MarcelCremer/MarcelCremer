@@ -5,9 +5,9 @@ categories: [Allgemein, Blog]
 comments: true
 ---
 
-Die DSGVO rückt immer näher. Weil ich blogmäßig auf Jekyll umgestiegen bin, dachte ich es sei ja kein Problem. Keine Cookies, keine Fremdanfragen, nur gute alte statische Websites mit Hyperlinks. Tja, denkste!
+Die DSGVO rückt immer näher. Weil ich blogmäßig auf Jekyll umgestiegen bin, dachte ich es sei ja kein Problem. Keine Cookies, keine Fremdanfragen, nur gute alte statische Websites mit Hyperlinks. Tja, denkste!<!--more-->
 
-Nachdem ich einen Blogpost mit Disqus-Einbindung über die Website [https://webbkoll.dataskydd.net/en](https://webbkoll.dataskydd.net/en) geprüft habe, wurden mir nicht weniger als **28 Cookies** sowie viele weitere Fremd-Aufrufe angezeigt - darunter auch Links zu Werbefirmen, Facebook Statistiken und Google APIs. Das ist leider nicht tragbar und auch nicht mit einer Datenschutzerklärung erläuterbar.
+Nachdem ich einen Blogpost mit Disqus-Einbindung über die Website [https://webbkoll.dataskydd.net/en](https://webbkoll.dataskydd.net/en) geprüft habe, wurden mir nicht weniger als **28 Cookies** sowie viele weitere Fremd-Aufrufe angezeigt - darunter auch Links zu Werbefirmen, Facebook Statistiken und Google APIs. Das ist leider nicht mehr tragbar.
 
 Aus diesem Grund, habe ich die Kommentare mit Disqus wieder entfernt. Die Seite ist nun wieder **statisch**, benutzt **keine Cookies** und erfasst auch sonst keine [Personenrelevanten Daten](https://webbkoll.dataskydd.net/en/results?url=http%3A%2F%2Fmarcelcremer.github.io%2FAsync_server%2F).
 
