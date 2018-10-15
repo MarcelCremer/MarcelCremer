@@ -14,7 +14,7 @@ Dürener Str. 236
 Telefon:	+49 178 / 7145492  
 E-Mail:	hello -at- marcel-cremer.de
 
-### Verantwortlich für den Inhalt nach $55 Abs. 2 RSTV:
+### Verantwortlich für den Inhalt nach §55 Abs. 2 RSTV:
 Marcel Cremer  
 Dürener Str. 236  
 50171 Kerpen  
