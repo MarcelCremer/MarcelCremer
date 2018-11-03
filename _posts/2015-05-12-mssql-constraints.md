@@ -4,7 +4,7 @@ title: MSSQL Constraints deaktivieren
 categories: Kurz&Bündig
 ---
 
-Durch eine aktuelle Anforderung musste ich Daten von einer Datenbank in eine andere Übernehmen. Störend ist dabei, wenn Constraints und Trigger einem die Show stehlen wollen und den Datenimport verhindern. <!--more-->Auf [StackOverflow](http://stackoverflow.com/questions/14972816/how-to-disable-constraints-for-all-the-tables-and-enable-it) habe ich dazu eine super Lösung gefunden. Mit den folgenden Befehlen kann man MSSQL Constraints deaktivieren. Außerdem werden die Trigger der Vollständigkeit halber temporär deaktiviert, sodass die Tabellen während des Imports davon nicht beeinflusst werden.
+Durch eine aktuelle Anforderung musste ich Daten von einer Datenbank in eine andere Übernehmen. Störend ist dabei, wenn Constraints und Trigger einem die Show stehlen wollen und den Datenimport verhindern. <!--more-->Auf [StackOverflow](https://stackoverflow.com/questions/14972816/how-to-disable-constraints-for-all-the-tables-and-enable-it) habe ich dazu eine super Lösung gefunden. Mit den folgenden Befehlen kann man MSSQL Constraints deaktivieren. Außerdem werden die Trigger der Vollständigkeit halber temporär deaktiviert, sodass die Tabellen während des Imports davon nicht beeinflusst werden.
 
 > EXEC sp_MSforeachtable @command1=”ALTER TABLE ? NOCHECK CONSTRAINT ALL” GO
 > 

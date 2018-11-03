@@ -3,7 +3,7 @@ layout: post
 title: Blogparade - Meine Bürotechnik
 categories: Allgemein
 ---
-Auf [Selbstständig im Netz](http://www.selbstaendig-im-netz.de/) habe ich die aktuelle Blogparade zum Thema "Welche Technik steht in deinem Büro" gefunden und als treuer Leser möchte ich natürlich auch gerne mitmachen. Deshalb möchte ich im folgenden ein paar Fragen zu meiner Bürotechnik beantworten:
+Auf [Selbstständig im Netz](https://www.selbstaendig-im-netz.de/) habe ich die aktuelle Blogparade zum Thema "Welche Technik steht in deinem Büro" gefunden und als treuer Leser möchte ich natürlich auch gerne mitmachen. Deshalb möchte ich im folgenden ein paar Fragen zu meiner Bürotechnik beantworten:
 <!--more-->
 ### Welche Technik nutzt du aktuell für deine Online-Aktivitäten?
 

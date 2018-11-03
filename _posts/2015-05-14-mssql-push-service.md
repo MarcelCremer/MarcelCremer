@@ -9,7 +9,7 @@ Da ich von $Kunde die Anforderung bekommen habe, einen Datenbank-Push Service zu
 1.  Die „Notifier“ Trigger, so nenne ich sie mal, feuern nachdem ein Update oder ein Insert auf die zu überwachenden Tabellen durchgeführt wird. Diese füllen eine weitere Tabelle, eine Art Job-Queue mit Informationen über den Typ, woher getriggert wurde, wann getriggert wurde usw.. Das erleichtert das überwachen und ermöglicht es, Jobs die angefallen sind, während der Push-Empfänger nicht verfügbar war, später noch einmal auszuführen.
 2.  Ein Trigger auf der Jobtabelle prüft, ob der Job der eingefügt wurde bereits an den Empfänger weitergeleitet wurde. Falls noch keine Weiterleitung erfolgt ist, ruft er eine Stored Procedure auf, die GeekZilla in seinem Blog am besten beschrieben hat:
 
-Gefunden auf [Geekzilla](http://www.geekzilla.co.uk/View24CF9B2B-4099-4ED7-B360-89B14C11DAE8.htm)
+Gefunden auf [Geekzilla](https://www.geekzilla.co.uk/View24CF9B2B-4099-4ED7-B360-89B14C11DAE8.htm)
 
 CREATE PROCEDURE Http_request (@URI      VARCHAR(200), 
                                @response VARCHAR(8000) out) 

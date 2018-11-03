@@ -7,10 +7,10 @@ In meinem [ersten Artikel zum Thema ORM](../einfuehrung-orm/) habe ich bereits e
 <!--more-->
 ### Simple.Data
 
-Das Framework Simple.Data wird auf der [Homepage](http://simplefx.org/simpledata/docs/index.html) beschrieben als "\[...\] a lightweight framework that uses the dynamic features of .NET 4 to provide an expressive, ORM-ish way of accessing and manipulating data without any of the code pre-generation and boilerplate required by other frameworks". Wow, den Satz müssen wir erst einmal verdauen: Simple.Data ist also
+Das Framework Simple.Data wird auf der [Homepage](https://simplefx.org/simpledata/docs/index.html) beschrieben als "\[...\] a lightweight framework that uses the dynamic features of .NET 4 to provide an expressive, ORM-ish way of accessing and manipulating data without any of the code pre-generation and boilerplate required by other frameworks". Wow, den Satz müssen wir erst einmal verdauen: Simple.Data ist also
 
 *   ein leichtgewichtiges Framework
-*   benutzt "[dynamic Objects](http://www.smart-programmer.de/smart-lexikon/dynamic-net/)" um die Datenbankobjekte zu binden
+*   benutzt "[dynamic Objects](https://www.smart-programmer.de/smart-lexikon/dynamic-net/)" um die Datenbankobjekte zu binden
 *   fühlt sich "ORM"-mäßig an
 *   benötigt kein Mapping und keine vordefinierten Objekte wie andere ORM-Frameworks
 
