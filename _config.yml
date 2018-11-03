@@ -85,4 +85,4 @@ exclude:
   - CNAME
 
 # theme: jekyll-theme-slate
-remote_theme: sergiokopplin/indigo
+remote_theme: DavidForster/strata-jekyll
